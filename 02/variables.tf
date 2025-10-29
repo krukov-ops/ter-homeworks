@@ -6,11 +6,15 @@
 
 variable "cloud_id" {
   type        = string
+#  default     = file("~/.authorized_key4.json")
+  default     = "b1g1odr3a58u7kekm0k4"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/cloud/get-id"
 }
 
 variable "folder_id" {
   type        = string
+#  default     = file("~/.authorized_key3.json")
+  default     = "b1gao12179jdnmktdmo8"
   description = "https://cloud.yandex.ru/docs/resource-manager/operations/folder/get-id"
 }
 
@@ -33,6 +37,8 @@ variable "vpc_name" {
 
 variable "service_account_key_file" {
   type        = string
+#  default     = file("~/.authorized_key2.json")
+  default     = "ajeoem45pau8j4kf2tid"
   description = "Path to service account key file"  
 }
 
