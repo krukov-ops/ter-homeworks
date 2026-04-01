@@ -69,7 +69,7 @@ variable "each_vm" {
 
   default = [
     { vm_name = "main",    cpu = 2, ram = 4,  disk_volume = 15, platform_id = "standard-v3" },
-    { vm_name = "replica", cpu = 4, ram = 8,  disk_volume = 20, platform_id = "standard-v3" },
+#    { vm_name = "replica", cpu = 4, ram = 8,  disk_volume = 20, platform_id = "standard-v3" },
   ]
 }
 
